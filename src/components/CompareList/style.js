@@ -14,6 +14,33 @@ export const Repository = styled.div`
   flex-direction: column;
   margin: 0 10px;
 
+  button.delete {
+    width: 15px;
+    position: relative;
+    right: -225px;
+    top: 10px;
+    color: #9b65e6;
+    cursor: pointer;
+    background: none;
+    border: none;
+  }
+
+  button.update {
+    border: none;
+    margin: 15px 30px;
+    border-radius: 20px;
+    color: #fff;
+    background: #63f5b0;
+    height: 35px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+
+    &:hover {
+      background: #52d89f;
+    }
+  }
+
   header {
     padding: 30px;
     display: flex;
